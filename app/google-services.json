@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595409771048",
+    "project_id": "the-job-junction-backend",
+    "storage_bucket": "the-job-junction-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595409771048:android:4d16c0e5d984a85026331d",
+        "android_client_info": {
+          "package_name": "com.example.thejobjunction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfG78jzyGqXjTB7LSYlpnR7Jy71jpjJGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

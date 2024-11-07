@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_bg">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/job_title_layout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Job Title"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:textColorHint="@color/white"
+        android:textColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/job_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/job_location_layout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Job Location"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:textColorHint="@color/white"
+        android:textColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/job_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/job_pay_layout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Pay for the Job"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:textColorHint="@color/white"
+        android:textColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/job_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:digits="1234567890."
+            android:inputType="number"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/employee_name_layout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Employer Name"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:textColorHint="@color/white"
+        android:textColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/employee_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/idEdtDate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Enter Work Day"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Update"
+        android:enabled="true"
+        android:textColor="@color/white"
+        android:backgroundTint="#C0C0C0"
+        android:textSize="20dp"/>
+
+</LinearLayout>

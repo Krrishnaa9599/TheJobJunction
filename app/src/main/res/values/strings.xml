@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">The Job Junction</string>
+    <string name="app_name_exclamation">The Job Junction !!</string>
+    <string name="login">LOGIN</string>
+    <string name="loginhypertext"><u>Login</u></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>Forgot password ?</u></string>
+    <string name="new_user">New User?</string>
+    <string name="create_account"><u>Create Account</u></string>
+    <string name="description1">It\'s for Everyone</string>
+    <string name="description2"><![CDATA[(The Job provider & Seeker)]]></string>
+    <string name="user_name">User Name</string>
+    <string name="mobile_number">Contact No</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="show_requests"><u>Show Requests</u></string>
+    <string name="give_rating"><u>Give Rating</u></string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="9dp"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:rowCount="6"
+            android:padding="15dp"
+            android:background="#C0C0C0"
+            android:columnCount="2">
+
+            <TextView/>
+
+
+            <TextView
+                android:id="@+id/job_title_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Title:"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/job_location_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Location:"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/job_pay_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay for the Job:"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/job_work_day_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work Day"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/job_emp_name_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employer Name:"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="right">
+                <ImageView
+                    android:id="@+id/tick_mark_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tick_image"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/job_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/job_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/job_work_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/job_emp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"/>
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/job_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/provider_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

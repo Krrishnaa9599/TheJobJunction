@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:background="@drawable/black_bg">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mail_layout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Send OTP"
+        android:backgroundTint="#6C3483"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+</LinearLayout>
